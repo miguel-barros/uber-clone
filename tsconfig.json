@@ -3,14 +3,20 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@components/*": [
+      "screens/*": [
+        "src/screens/*"
+      ],
+      "components/*": [
         "src/components/*"
       ],
-      "@hooks/*": [
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "hooks/*": [
         "src/hooks/*"
       ],
-      "@screens/*": [
-        "src/screens/*"
+      "contexts/*": [
+        "src/contexts/*"
       ],
     }
   },
